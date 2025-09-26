@@ -2,17 +2,17 @@
 <html lang="pt-BR" data-theme="light"> <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gelo & Neves - Soluções em Climatização</title>
+    <title>Gelo & Neves - Soluções de Climatização</title>
     <meta name="description" content="Soluções completas e confiáveis em limpeza, manutenção e reparo de ar condicionado para residências e comércios.">
     
     <link rel="icon" type="image/png" href="favicon.png">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600;700&family=Raleway:wght@700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,7 +21,7 @@
         <div class="container">
             <nav class="nav">
                 <a href="index.html" class="logo">
-                    <img src="logo.png" alt="Logo Clima Perfeito">
+                    <img src="logo.png" alt="Logo Gelo & Neves Soluções de climatização">
                 </a>
                 <ul class="nav-menu">
                     <li><a href="#sobre">Sobre Nós</a></li>
@@ -51,9 +51,9 @@
     <main>
         <section class="hero">
             <video playsinline autoplay muted loop class="hero-video-background">
-        <source src="video.mp4" type="video/mp4">
-        Seu navegador não suporta vídeos em HTML5.
-    </video>
+                <source src="video.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos em HTML5.
+            </video>
             <div class="container">
                 <div class="hero-content">
                     <h1 class="animate-on-scroll">Excelência em Climatização para Seu Conforto</h1>
@@ -65,93 +65,290 @@
             </div>
         </section>
 
-        <section id="sobre" class="about section-padding">
-            <div class="container">
-                <div class="about-content">
-                    <div class="about-text animate-on-scroll">
-                        <h2>Sobre a Clima Perfeito</h2>
-                        <p>
-                            Há <strong>mais de 10 anos no mercado</strong>, a Clima Perfeito é referência em manutenção e instalação de sistemas de ar condicionado em Porto Alegre e região metropolitana.
-                        </p>
-                        <p>
-                            Nossa equipe é formada por técnicos especializados e certificados pelas principais marcas do mercado, garantindo um serviço de <strong>qualidade excepcional</strong> para nossos clientes.
-                        </p>
-                        <p>
-                            Trabalhamos com <strong>atendimento 24 horas</strong> para emergências, porque sabemos como é importante manter seu ambiente sempre climatizado, especialmente durante os dias mais quentes do ano.
-                        </p>
-                        <div class="about-tags">
-                            <span><i class="fas fa-check"></i> Técnicos Certificados</span>
-                            <span><i class="fas fa-check"></i> Atendimento 24h</span>
-                            <span><i class="fas fa-check"></i> Garantia Total</span>
-                        </div>
-                    </div>
-                    <div class="about-stats animate-on-scroll">
-                        <div class="stat-card">
-                            <div class="stat-icon"><i class="fas fa-users"></i></div>
-                            <h3>500+</h3>
-                            <h4>Clientes Satisfeitos</h4>
-                            <p>Atendemos residências e empresas</p>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-icon"><i class="fas fa-award"></i></div>
-                            <h3>10+</h3>
-                            <h4>Anos de Experiência</h4>
-                            <p>Especialistas em climatização</p>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-icon"><i class="fas fa-clock"></i></div>
-                            <h3>24h</h3>
-                            <h4>Atendimento</h4>
-                            <p>Suporte técnico disponível</p>
-                        </div>
-                        <div class="stat-card">
-                            <div class="stat-icon"><i class="fas fa-shield-alt"></i></div>
-                            <h3>100%</h3>
-                            <h4>Garantia</h4>
-                            <p>Serviços com qualidade certificada</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <section id="servicos" class="services section-padding">
-            <div class="container">
-                <h2 class="section-title animate-on-scroll">Nossos Serviços</h2>
-                <p class="section-subtitle animate-on-scroll">
-                    Oferecemos uma gama completa de serviços para manter seu ar condicionado funcionando perfeitamente durante todo o ano.
-                </p>
-                <div class="services-grid">
-                    <div class="service-card animate-on-scroll"><div class="service-card-icon"><i class="fas fa-tools"></i></div><h3>Manutenção Preventiva</h3><p>Limpeza, higienização e verificação completa dos componentes para garantir o funcionamento ideal do seu ar condicionado.</p><ul class="service-list"><li>Limpeza de filtros</li><li>Verificação de gás</li><li>Teste de funcionamento</li><li>Relatório técnico</li></ul></div>
-                    <div class="service-card animate-on-scroll"><div class="service-card-icon"><i class="fas fa-wrench"></i></div><h3>Manutenção Corretiva</h3><p>Reparo de defeitos e substituição de peças danificadas por técnicos especializados com peças originais.</p><ul class="service-list"><li>Diagnóstico preciso</li><li>Peças originais</li><li>Garantia do serviço</li><li>Atendimento rápido</li></ul></div>
-                    <div class="service-card animate-on-scroll"><div class="service-card-icon"><i class="fas fa-temperature-arrow-down"></i></div><h3>Instalação Completa</h3><p>Instalação profissional de ar condicionado com projeto técnico adequado para sua necessidade.</p><ul class="service-list"><li>Projeto técnico</li><li>Instalação segura</li><li>Teste de funcionamento</li><li>Garantia de instalação</li></ul></div>
-                    <div class="service-card animate-on-scroll"><div class="service-card-icon"><i class="fas fa-wind"></i></div><h3>Limpeza Técnica</h3><p>Higienização completa do sistema com produtos específicos para eliminar bactérias e odores.</p><ul class="service-list"><li>Limpeza profunda</li><li>Produtos específicos</li><li>Eliminação de odores</li><li>Ambiente mais saudável</li></ul></div>
-                    <div class="service-card animate-on-scroll"><div class="service-card-icon"><i class="fas fa-sync-alt"></i></div><h3>Recarga de Gás</h3><p>Verificação e recarga do gás refrigerante com produtos de qualidade e técnica adequada.</p><ul class="service-list"><li>Teste de vazamentos</li><li>Gás de qualidade</li><li>Pressão adequada</li><li>Funcionamento otimizado</li></ul></div>
-                    <div class="service-card animate-on-scroll"><div class="service-card-icon"><i class="fas fa-shield-alt"></i></div><h3>Suporte 24h</h3><p>Atendimento de emergência disponível 24 horas para resolver problemas urgentes.</p><ul class="service-list"><li>Atendimento 24h</li><li>Emergências</li><li>Resposta rápida</li><li>Técnicos qualificados</li></ul></div>
-                </div>
-            </div>
-        </section>
+    <div class="container">
+        <h2 class="section-title animate-on-scroll">Nossos Serviços</h2>
+        <p class="section-subtitle animate-on-scroll">
+            Oferecemos uma gama completa de soluções para garantir o conforto e a qualidade do ar em seu ambiente.
+        </p>
 
-        <section id="diferencial" class="features section-padding">
+        <div class="services-carousel-wrapper">
+            <div class="swiper servicesSwiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="card1.jpg" alt="Equipamentos para manutenção preventiva" class="service-card-image">
+                            <div class="service-card-content">
+                                <div class="service-card-header">
+                                    <div class="service-icon icon-blue"><i class="fas fa-shield-alt"></i></div>
+                                    <h3>Manutenção Preventiva</h3>
+                                </div>
+                                <p>Limpeza, higienização e verificação completa para garantir o funcionamento ideal do seu ar condicionado.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check-circle"></i> Limpeza de filtros</li>
+                                    <li><i class="fas fa-check-circle"></i> Verificação de gás</li>
+                                    <li><i class="fas fa-check-circle"></i> Teste de funcionamento</li>
+                                    <li><i class="fas fa-check-circle"></i> Relatório técnico</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="card1.jpg" alt="Técnico realizando reparo" class="service-card-image">
+                            <div class="service-card-content">
+                                <div class="service-card-header">
+                                    <div class="service-icon icon-blue"><i class="fas fa-tools"></i></div>
+                                    <h3>Manutenção Corretiva</h3>
+                                </div>
+                                <p>Reparo de defeitos e substituição de peças danificadas por técnicos especializados com peças originais.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check-circle"></i> Diagnóstico preciso</li>
+                                    <li><i class="fas fa-check-circle"></i> Peças originais</li>
+                                    <li><i class="fas fa-check-circle"></i> Garantia do serviço</li>
+                                    <li><i class="fas fa-check-circle"></i> Atendimento rápido</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="card1.jpg" alt="Instalação profissional de ar condicionado" class="service-card-image">
+                            <div class="service-card-content">
+                                <div class="service-card-header">
+                                    <div class="service-icon icon-blue"><i class="fas fa-hard-hat"></i></div>
+                                    <h3>Instalação Completa</h3>
+                                </div>
+                                <p>Instalação profissional com projeto técnico adequado para sua necessidade e ambiente.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check-circle"></i> Projeto técnico</li>
+                                    <li><i class="fas fa-check-circle"></i> Instalação segura</li>
+                                    <li><i class="fas fa-check-circle"></i> Teste de funcionamento</li>
+                                    <li><i class="fas fa-check-circle"></i> Garantia de instalação</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="card1.jpg" alt="Produtos para limpeza técnica" class="service-card-image">
+                            <div class="service-card-content">
+                                <div class="service-card-header">
+                                    <div class="service-icon icon-blue"><i class="fas fa-wind"></i></div>
+                                    <h3>Limpeza Técnica</h3>
+                                </div>
+                                <p>Higienização completa do sistema com produtos específicos para eliminar bactérias e odores.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check-circle"></i> Limpeza profunda</li>
+                                    <li><i class="fas fa-check-circle"></i> Produtos específicos</li>
+                                    <li><i class="fas fa-check-circle"></i> Eliminação de odores</li>
+                                    <li><i class="fas fa-check-circle"></i> Ambiente mais saudável</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="card1.jpg" alt="Equipamento de recarga de gás" class="service-card-image">
+                            <div class="service-card-content">
+                                <div class="service-card-header">
+                                    <div class="service-icon icon-blue"><i class="fas fa-sync-alt"></i></div>
+                                    <h3>Recarga de Gás</h3>
+                                </div>
+                                <p>Verificação e recarga do gás refrigerante com produtos de qualidade e técnica adequada.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check-circle"></i> Teste de vazamentos</li>
+                                    <li><i class="fas fa-check-circle"></i> Gás de qualidade</li>
+                                    <li><i class="fas fa-check-circle"></i> Pressão adequada</li>
+                                    <li><i class="fas fa-check-circle"></i> Funcionamento otimizado</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="service-card">
+                            <img src="card1.jpg" alt="Atendente de suporte" class="service-card-image">
+                            <div class="service-card-content">
+                                <div class="service-card-header">
+                                    <div class="service-icon icon-blue"><i class="fas fa-headset"></i></div>
+                                    <h3>Suporte 24h</h3>
+                                </div>
+                                <p>Atendimento de emergência disponível 24 horas para resolver problemas urgentes.</p>
+                                <ul class="service-features-list">
+                                    <li><i class="fas fa-check-circle"></i> Atendimento 24h</li>
+                                    <li><i class="fas fa-check-circle"></i> Emergências</li>
+                                    <li><i class="fas fa-check-circle"></i> Resposta rápida</li>
+                                    <li><i class="fas fa-check-circle"></i> Técnicos qualificados</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> </div> <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            
+            <div class="swiper-pagination"></div>
+
+        </div> </div>
+</section>
+         <section id="diferencial" class="features-section section-padding">
             <div class="container">
                 <h2 class="section-title animate-on-scroll">Por Que Nos Escolher?</h2>
+                <p class="section-subtitle animate-on-scroll">
+                    Oferecemos um serviço completo e confiável, focado na sua satisfação e conforto.
+                </p>
+
                 <div class="features-grid">
-                    <div class="feature-item animate-on-scroll"><div class="icon-wrapper"><i class="fas fa-handshake"></i></div><h4>Confiança e Transparência</h4><p>Relacionamento honesto e claro em cada etapa do serviço.</p></div>
-                    <div class="feature-item animate-on-scroll"><div class="icon-wrapper"><i class="fas fa-star"></i></div><h4>Excelência Comprovada</h4><p>Alto padrão de qualidade e satisfação garantida em todos os projetos.</p></div>
-                    <div class="feature-item animate-on-scroll"><div class="icon-wrapper"><i class="fas fa-tachometer-alt"></i></div><h4>Agilidade no Atendimento</h4><p>Prontidão para resolver suas necessidades com rapidez e eficiência.</p></div>
-                    <div class="feature-item animate-on-scroll"><div class="icon-wrapper"><i class="fas fa-headset"></i></div><h4>Suporte Dedicado</h4><p>Equipe pronta para oferecer assistência e tirar suas dúvidas.</p></div>
+                    
+
+<div class="feature-card animate-on-scroll">
+                        <div class="feature-icon icon-blue">
+                            <i class="fas fa-tachometer-alt"></i>
+                        </div>
+                        <h3>Agilidade no Atendimento</h3>
+                        <p>Prontidão para resolver suas necessidades com rapidez e eficiência, minimizando seu tempo de espera.</p>
+                    </div>
+                    
+
+<div class="feature-card animate-on-scroll">
+                        <div class="feature-icon icon-green">
+                            <i class="fas fa-users-cog"></i>
+                        </div>
+                        <h3>Técnicos Especializados</h3>
+                        <p>Nossa equipe é formada por profissionais certificados e experientes nas principais marcas do mercado.</p>
+                    </div>
+                    
+
+<div class="feature-card animate-on-scroll">
+                        <div class="feature-icon icon-purple">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Garantia Total</h3>
+                        <p>Todos os nossos serviços possuem garantia completa, dando total segurança e tranquilidade para você.</p>
+                    </div>
+                    
+
+<div class="feature-card animate-on-scroll">
+                        <div class="feature-icon icon-orange">
+                            <i class="fas fa-wrench"></i>
+                        </div>
+                        <h3>Peças Originais</h3>
+                        <p>Utilizamos apenas peças originais e de alta qualidade, garantindo durabilidade e eficiência.</p>
+                    </div>
+                    
+
+<div class="feature-card animate-on-scroll">
+                        <div class="feature-icon icon-yellow">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Excelência Comprovada</h3>
+                        <p>Mais de 500 clientes satisfeitos e avaliações 5 estrelas em todas as plataformas digitais.</p>
+                    </div>
+                    
+
+<div class="feature-card animate-on-scroll">
+                        <div class="feature-icon icon-teal">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <h3>Orçamento Gratuito</h3>
+                        <p>Fazemos avaliação gratuita e orçamento sem compromisso para todos os tipos de serviço.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <section id="processo" class="process section-padding">
+        <section id="processo" class="process-section section-padding">
             <div class="container">
                 <h2 class="section-title animate-on-scroll">Nosso Processo Descomplicado</h2>
-                <div class="process-grid">
-                    <div class="process-step animate-on-scroll"><div class="step-number">1</div><h3>Você Solicita</h3><p>Entre em contato conosco pelo site ou WhatsApp para agendar.</p></div>
-                    <div class="process-step animate-on-scroll"><div class="step-number">2</div><h3>Nós Avaliamos</h3><p>Nossos técnicos visitam o local para um diagnóstico preciso.</p></div>
-                    <div class="process-step animate-on-scroll"><div class="step-number">3</div><h3>Orçamento Personalizado</h3><p>Apresentamos uma proposta clara, sem surpresas.</p></div>
-                    <div class="process-step animate-on-scroll"><div class="step-number">4</div><h3>Serviço Executado</h3><p>Nossa equipe realiza o trabalho com qualidade e atenção.</p></div>
+                <p class="section-subtitle animate-on-scroll">
+                    Acompanhe passo a passo como garantimos a sua satisfação, do primeiro contato à finalização do serviço.
+                </p>
+                <div class="process-timeline">
+                    <div class="process-item animate-on-scroll">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon"><i class="fas fa-phone"></i></div>
+                            <span class="step-badge">01</span>
+                        </div>
+                        <div class="process-content">
+                            <h3>Primeiro Contato</h3>
+                            <p>Entre em contato pelo telefone ou WhatsApp. Nossa equipe irá entender sua necessidade e agendar uma visita técnica.</p>
+                            <ul class="process-features">
+                                <li><i class="fas fa-circle"></i> Atendimento personalizado</li>
+                                <li><i class="fas fa-circle"></i> Agendamento flexível</li>
+                                <li><i class="fas fa-circle"></i> Primeira orientação gratuita</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="process-item animate-on-scroll">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon"><i class="fas fa-calendar-alt"></i></div>
+                            <span class="step-badge">02</span>
+                        </div>
+                        <div class="process-content">
+                            <h3>Visita Técnica</h3>
+                            <p>Um técnico especializado visitará seu local para realizar uma avaliação completa do sistema de ar condicionado.</p>
+                            <ul class="process-features">
+                                <li><i class="fas fa-circle"></i> Diagnóstico preciso</li>
+                                <li><i class="fas fa-circle"></i> Avaliação sem compromisso</li>
+                                <li><i class="fas fa-circle"></i> Orçamento detalhado</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="process-item animate-on-scroll">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon"><i class="fas fa-file-invoice-dollar"></i></div>
+                            <span class="step-badge">03</span>
+                        </div>
+                        <div class="process-content">
+                            <h3>Orçamento Aprovado</h3>
+                            <p>Apresentamos um orçamento transparente e detalhado. Após sua aprovação, agendamos o serviço para a data mais conveniente.</p>
+                            <ul class="process-features">
+                                <li><i class="fas fa-circle"></i> Preços transparentes</li>
+                                <li><i class="fas fa-circle"></i> Sem taxas ocultas</li>
+                                <li><i class="fas fa-circle"></i> Prazo definido</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="process-item animate-on-scroll">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon"><i class="fas fa-wrench"></i></div>
+                            <span class="step-badge">04</span>
+                        </div>
+                        <div class="process-content">
+                            <h3>Execução do Serviço</h3>
+                            <p>Nossa equipe executa o serviço com precisão, utilizando equipamentos modernos e peças originais de qualidade.</p>
+                            <ul class="process-features">
+                                <li><i class="fas fa-circle"></i> Técnicos certificados</li>
+                                <li><i class="fas fa-circle"></i> Peças originais</li>
+                                <li><i class="fas fa-circle"></i> Equipamentos modernos</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="process-item animate-on-scroll">
+                        <div class="process-icon-wrapper">
+                            <div class="process-icon"><i class="fas fa-check-circle"></i></div>
+                            <span class="step-badge">05</span>
+                        </div>
+                        <div class="process-content">
+                            <h3>Finalização e Garantia</h3>
+                            <p>Realizamos testes finais para garantir o perfeito funcionamento e fornecemos garantia completa do serviço realizado.</p>
+                            <ul class="process-features">
+                                <li><i class="fas fa-circle"></i> Teste de funcionamento</li>
+                                <li><i class="fas fa-circle"></i> Garantia do serviço</li>
+                                <li><i class="fas fa-circle"></i> Suporte pós-venda</li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -164,17 +361,38 @@
                         <h3>Entre em Contato</h3>
                         <p><i class="fas fa-phone"></i> (51) 3333-4444</p>
                         <p><i class="fab fa-whatsapp"></i> (51) 99999-9999</p>
-                        <p><i class="fas fa-envelope"></i> contato@climaperfeito.com.br</p>
+                        <p><i class="fas fa-envelope"></i> contato@geloeneves.com.br</p>
                         <p><i class="fas fa-map-marker-alt"></i> Av. Exemplo, 123 - Moinhos de Vento, Porto Alegre - RS</p>
-                        <p><i class="fas fa-clock"></i> Seg a Sex: 8h às 18h | Sáb: 8h às 12h</p>
-                        <div class="social-links">
-                            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                        </div>
+                        
+                        <table class="horarios-tabela">
+                            <thead>
+                                <tr>
+                                    <th colspan="2"><i class="fas fa-clock"></i> Horários de Funcionamento</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Segunda a Sexta</td>
+                                    <td>08:00 - 18:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Sábados</td>
+                                    <td>08:00 - 12:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Domingos e Feriados</td>
+                                    <td class="fechado">Fechado</td>
+                                </tr>
+                                <tr>
+                                    <td>Atendimento de Emergência</td>
+                                    <td>24 horas</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                     <div class="contact-map animate-on-scroll">
                         <iframe 
-                            src="http://googleusercontent.com/maps.google.com/7"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13817.382218991208!2d-51.20305833917235!3d-30.02693998797897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979b9425100e7%3A0x280e463690565880!2sMoinhos%20de%20Vento%2C%20Porto%20Alegre%20-%20RS!5e0!3m2!1spt-BR!2sbr!4v1727323385317!5m2!1spt-BR!2sbr"
                             width="100%" 
                             height="350" 
                             style="border:0;" 
@@ -186,67 +404,100 @@
                 </div>
             </div>
         </section>
-    </main>
 
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-top">
-                <div class="footer-col footer-about">
-                    <div class="footer-logo">
-                        <img src="logo.png" alt="Logo Clima Perfeito">
+        <section id="sobre" class="about section-padding">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text animate-on-scroll">
+                        <h2>Sobre a Gelo & Neves</h2>
+                        <p>
+                            Há <strong>mais de 10 anos no mercado</strong>, a Gelo & Neves Soluções de climatização é referência em manutenção e instalação de sistemas de ar condicionado em Porto Alegre e região metropolitana.
+                        </p>
+                        <p>
+                            Nossa equipe é formada por técnicos especializados e certificados, garantindo um serviço de <strong>qualidade excepcional</strong> para nossos clientes.
+                        </p>
+                        <div class="about-tags">
+                            <span><i class="fas fa-check"></i> Técnicos Certificados</span>
+                            <span><i class="fas fa-check"></i> Atendimento 24h</span>
+                            <span><i class="fas fa-check"></i> Garantia Total</span>
+                        </div>
                     </div>
-                    <p>
-                        Especialistas em manutenção e instalação de ar condicionado. Mais de 10 anos cuidando do conforto e bem-estar dos nossos clientes.
-                    </p>
-                    <div class="footer-social">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <div class="about-image-wrapper animate-on-scroll">
+                        <img src="sede.png" alt="Técnico qualificado da Gelo & Neves realizando manutenção">
                     </div>
                 </div>
-                <div class="footer-col footer-contact">
-                    <h4>Contato</h4>
-                    <ul>
-                        <li><i class="fas fa-phone"></i> (51) 99999-9999</li>
-                        <li><i class="fas fa-envelope"></i> contato@climaperfeito.com.br</li>
-                        <li><i class="fas fa-map-marker-alt"></i> Porto Alegre - RS</li>
-                    </ul>
-                    <a href="https://wa.me/5551999999999?text=Olá!%20Gostaria%20de%20mais%20informações." class="btn-whatsapp-footer" target="_blank">
-                        <i class="fab fa-whatsapp"></i> WhatsApp Direto
+            </div>
+        </section>
+
+    </main>
+
+   <footer class="footer">
+        <div class="container">
+            <div class="footer-cta-container">
+                <div class="cta-content">
+                    <h2 class="animate-on-scroll">Pronto para ter mais conforto e segurança?</h2>
+                    <p class="animate-on-scroll">Nossa equipe está pronta para ajudar. Fale conosco hoje mesmo e solicite seu orçamento gratuito e sem compromisso.</p>
+                    <a href="https://wa.me/5551999999999?text=Olá!%20Gostaria%20de%20conversar%20sobre%20um%20orçamento." class="btn-cta-hero animate-on-scroll" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Conversar no WhatsApp
                     </a>
                 </div>
             </div>
-            <hr class="footer-divider">
-            <div class="footer-bottom">
-                <p class="copyright-text">© 2025 Clima Perfeito. Todos os direitos reservados.</p>
-                <div class="footer-links">
-                    <a href="#">Política de Privacidade</a>
-                    <a href="#">Termos de Uso</a>
+            <div class="footer-main-content">
+                <div class="footer-grid">
+                    <div class="footer-about">
+                        <img src="logoedit.png" alt="Logo Gelo & Neves" class="footer-logo">
+                        <p class="footer-description">Excelência e confiança em climatização há mais de 10 anos, garantindo o seu conforto e bem-estar.</p>
+                        <div class="footer-social">
+                            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Contato</h4>
+                        <ul>
+                            <li><i class="fas fa-phone"></i> (51) 99999-9999</li>
+                            <li><i class="fas fa-envelope"></i> contato@geloeneves.com.br</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Porto Alegre - RS</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2025 Gelo & Neves - Soluções de Climatização. Todos os direitos reservados.</p>
                 </div>
             </div>
         </div>
     </footer>
 
-    <div class="chatbot-placeholder">
-        <div class="chatbot-icon">
-            <i class="fas fa-comment-dots"></i>
+
+    <div class="chatbot">
+        <div class="chatbot-toggler">
+            <i class="fas fa-comment-dots open"></i>
+            <i class="fas fa-times close"></i>
         </div>
+        
         <div class="chatbot-window">
             <div class="chat-header">
-                <p>Assistente Virtual</p>
-                <button class="close-chat">×</button>
+                <div class="header-content">
+                    <i class="fas fa-robot"></i>
+                    <div class="header-text">
+                        <h2>Assistente Gelo & Neves</h2>
+                        <p>Online</p>
+                    </div>
+                </div>
             </div>
-            <div class="chat-body">
-                <p>Olá! Como posso ajudar você hoje?</p>
-                <ul>
-                    <li><a href="https://wa.me/5551999999999?text=Olá!%20Quero%20um%20orçamento." target="_blank">Quero um orçamento</a></li>
-                    <li><a href="https://wa.me/5551999999999?text=Olá!%20Gostaria%20de%20agendar%20uma%20visita." target="_blank">Agendar uma visita</a></li>
-                    <li><a href="#">Dúvidas frequentes</a></li>
+            <ul class="chat-messages">
                 </ul>
+            <div class="chat-input-form">
+                <form id="chat-form">
+                    <input type="text" id="user-input" placeholder="Digite sua dúvida..." required>
+                    <button type="submit" id="send-btn"><i class="fas fa-paper-plane"></i></button>
+                </form>
             </div>
         </div>
     </div>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/@google/generative-ai/dist/generative-ai.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
